@@ -19,7 +19,9 @@ Wait for the installation to complete. This will download the 3DPro.js library a
 # Getting Started
 To use 3DPro.js in your project, you first need to import it into your JavaScript file. Here's how:
 
-```import { Game3D } from '3dpro.js';```
+```import { Game3D } from './node_modules/3dpro.js/3dpro.js';```
+
+### Make sure your file is in the same folder as the node_modules folders directory.
 
 Once you have imported the library, you can create a new instance of the Game3D class and add objects to it. Here's an example:
 
