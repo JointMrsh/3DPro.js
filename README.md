@@ -48,13 +48,20 @@ The 3DPro.js library provides the following API:
 Creates a new instance of the Game3D class with the specified container element.
 
 ### Parameters
+
 container - The HTML element that the game will be rendered in.
 Methods
+
 add(object: THREE.Object3D): Adds a new object to the game scene.
+
 remove(object: THREE.Object3D): Removes an object from the game scene.
+
 play(): Starts the game loop.
+
 pause(): Pauses the game loop.
+
 render(): Renders the game scene.
+
 animate(): The game loop, which continuously updates and renders the game.
 
 ### Example
